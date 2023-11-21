@@ -1,0 +1,46 @@
+.profile-links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(80, 85, 92, 0.5215686275);
+
+
+    a {
+        color: #fff;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a:hover {
+        background-color: #15191d;
+    }
+
+
+
+    .box {
+        width: 20%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        // transition: .5s ;
+
+
+        span {
+            padding-bottom: 10px;
+        }
+
+        span.active {
+             border-bottom: 3px solid #1d9bf0;
+             border-radius: 2px;
+        }
+    }
+
+
+    .box:hover {
+        background-color: #15191d;
+    }
+}

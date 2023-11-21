@@ -1,0 +1,115 @@
+.right__follow {
+    margin-top: 20px;
+    width: 80%;
+    background-color: #16181c;
+    border-radius: 13px;
+    transition: .3s;
+    position: sticky;
+    top: 80px;
+    // z-index: -1;
+    
+
+
+    h2 {
+        font-size: 20px;
+        padding:  15px; 
+    }
+
+    .itme__follow {
+        cursor: pointer;
+        padding: 10px 0;
+
+
+
+        .box {
+            width: 100%;
+            padding: 0 15px;
+            display: flex;
+            justify-content: space-between;
+
+
+            .firstPane {
+                display: flex;
+
+
+
+
+                .itme__follow__image {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    margin-right: 10px;
+            
+            
+            
+                    img {
+                        max-width: 100%;
+                        border-radius: 50%;
+                    }
+                
+            }
+
+
+            .itme__follow__data {
+
+                a {
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    font-size: 18px;
+                    line-height: 9px;
+                    gap: 3px;
+                }
+
+
+                p {
+                    color: #71767b;
+                }
+            }
+            }
+
+            .bottom-follow {
+                background-color: #fff;
+                color: #000;
+                font-weight: 500;
+                min-width: 62px;
+                height: 32px;
+                border-radius: 18px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 14px;
+                padding: 0 14px;
+            }
+
+    }
+
+
+    }
+
+    .itme__follow:hover {
+        background-color: #202327;
+    }
+
+    
+    .see-more {
+        cursor: pointer;
+        border-radius: 0 0  13px 13px ;
+
+
+        .box {
+            padding:  15px;
+
+            p {
+                color: #1d9bf0;
+                font-size: 15px;
+            }
+        }
+    }
+
+    .see-more:hover {
+        background-color: #202327;
+    }
+
+
+}

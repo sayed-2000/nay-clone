@@ -1,0 +1,169 @@
+.postes {
+    width: 100%;
+    border-bottom: 1px solid #50555c85;
+    padding:  5px;
+    display: flex;
+    cursor: pointer;
+    
+
+
+
+    .box__image {
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+
+
+        img {
+            height: 40px;
+            width: 40px;
+            max-width: 100%;
+            border-radius: 50%;
+        }
+
+    }
+
+    .box__content {
+        height: 100%;
+        width: 90%;
+
+        .data-post {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+
+            .data {
+                display: flex;
+                align-items: center;
+
+                h3 {
+                    margin-right: 5px;
+                }
+
+
+                p,span {
+                    color: #71767b ;
+                }
+
+                span {
+                    
+                    margin: 0 3px;
+                    font-weight: bold;
+                    height: 25px;
+                }
+            }
+
+
+            // .icon {
+            //     display: flex;
+            //     align-items: center;
+            //     justify-content: center;
+            //     height: 30px;
+            //     width: 30px;
+            //     border-radius: 50%;
+            //     transition: .3s ease-out;
+            //     svg {
+            //         transition: .3s ease-out;
+            //     }
+            // }
+    
+            // .icon:hover {
+            //     background-color: #1d9bf036;
+            // }
+    
+            // .icon:hover svg {
+            //     fill: #1d9bf0;
+            // }
+        }
+
+
+    }
+
+
+
+
+
+
+    .content__text {
+
+
+        p {
+            font-size: 15px;
+            
+        }
+    }
+
+    .content__image {
+        max-width: 500px;
+        margin-top: 10px;
+
+
+        img {
+            border-radius: 9px;
+            border: 1px solid #71767b;
+            width: 100%;
+            max-height: 500px;
+        }
+
+
+        .video {
+            // border-radius: 9px;
+            border: 1px solid #71767b;
+            max-width: 100%;
+            max-height: 500px;
+        }
+    }
+
+
+    .actions {
+
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+
+
+        .box__action {
+            display: flex;
+            align-items: center;
+
+            p {
+                font-size: 15px;
+                color: #71767b;
+                margin-left: 5px;
+            }
+        }
+
+        span {
+
+            width: 25px;
+            height: 25px;
+            display: flex;
+            border-radius: 50%;
+            transition: .3s;
+
+            svg {
+                fill: #71767b;
+                
+            }
+        }
+
+
+        span:hover {
+            background-color: #1d9bf0;
+        }
+
+
+        .last {
+            display: flex;
+            gap: 5px;
+        }
+    }
+}
+
+
+
+
+

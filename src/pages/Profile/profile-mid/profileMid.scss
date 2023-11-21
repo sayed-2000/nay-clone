@@ -1,0 +1,172 @@
+.mid-profile {
+    width: 650px;
+    border-right: 1px solid #50555c85;
+    top: 0;
+    left: 300px;
+    // background-color: red;
+}
+
+
+
+.profile__top {
+    padding: 5px 15px;
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    cursor: pointer;
+    border-bottom: 1px solid #50555c85;
+    position: sticky !important;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 300;
+
+
+
+    .icon {
+        margin-right: 20px;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: .3s;
+
+
+
+        a {
+            height: 25px;
+            width: fit-content;
+        }
+    }
+
+
+    .icon:hover {
+        background-color: #202327;
+    }
+
+
+
+    .profile__data {
+        
+    h3 {
+        color: #e6e8e9;
+    }
+
+
+    p {
+        color: #71767b;
+    }
+    }
+}
+
+
+.mid-profile .profile-edit {
+
+
+    .main-image {
+        width: 100%;
+        height: 200px;
+        cursor: pointer;
+
+    img {
+        width: 100%;
+        max-height:100%;
+        }
+    }
+
+
+
+    .Edit-photo {
+        display: flex;
+        justify-content: end;
+        padding: 10px 20px;
+        position: relative;
+       .photo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 1;
+        top: -47px;
+        left: 14px;
+        cursor: pointer;
+
+
+        img {
+            max-width: 100%;
+            border-radius: 50%;
+            border: 3px solid #000;
+        }
+       } 
+
+       .edit {
+        border: 1px solid rgb(83, 100, 113);
+        height: 30px;
+        width: 109px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: .3s;
+       }
+
+       .edit:hover {
+        background-color: #202327;
+       }
+    }
+}   
+
+
+
+
+.mid-profile .profile-name {
+    // background-color: brown;
+    padding: 10px 20px;
+    margin-top: 10px;
+
+    h3 {
+        color: #e6e8e9;
+    }
+
+
+    p {
+        color: #71767b;
+    }
+}
+
+
+.mid-profile .Joined {
+    margin-top: 10px;
+    padding: 0px 20px;
+    display: flex;
+
+    p {
+        color: #71767b;
+        font-size: 17px;
+        // margin-left: 5px;
+    }
+}
+
+
+.mid-profile .Follow {
+
+    padding: 0px 20px;
+    a {
+        color: #71767b;
+        margin-right: 15px;
+        transition: .3s;
+
+
+        span {
+            color: #fff;
+        }
+    }
+
+
+    a:hover {
+        border-bottom: 1px solid #fff;
+    }
+}

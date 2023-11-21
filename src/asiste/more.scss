@@ -1,0 +1,21 @@
+.icon-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    transition: .3s ease-out;
+    cursor: pointer;
+    svg {
+        transition: .3s ease-out;
+    }
+}
+
+.icon-more:hover {
+    background-color: #1d9bf036;
+}
+
+.icon-more:hover svg {
+    fill: #1d9bf0;
+}
